@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/layout/AuthLayout.js", "src/components/Header.js", "src/components/Footer.js", "src/app/page.js", "src/app/layout.js", "src/app/(auth)/layout.js", "src/app/(auth)/register/page.js", "src/app/(auth)/login/page.js", "src/app/(user)/about/page.js", "src/app/(user)/campaign/[id]/page.js", "src/app/(user)/campaigns/page.js", "src/app/(user)/contact/page.js", "src/app/(user)/profile/UserSidebar.js", "src/app/(user)/profile/page.js", "src/app/(user)/profile/layout.js", "src/app/(user)/profile/withdraw-requests/page.js", "src/app/(user)/profile/update-profile/page.js", "src/app/(user)/profile/contributions/page.js", "src/app/(user)/profile/campaigns/page.js", "src/app/(user)/profile/campaigns/update/[id]/page.js", "src/app/(user)/profile/campaigns/new/page.js", "src/app/admin/campaigns/campaignsrequest/page.js", "src/app/admin/campaigns/withdrawalrequests/page.js", "src/app/admin/campaigns/page.js", "src/app/admin/contributors/page.js", "src/app/admin/users/page.js", "src/app/admin/users/activity/page.js", "src/app/admin/AdminSidebar.js", "src/app/admin/layout.js", "src/app/admin/page.js"],
+  "exclude": ["node_modules"]
+}
